@@ -19,26 +19,26 @@ public class CalculateDay {
         h = h % 7;
         switch (h) {
             case 0:
-                output ="Saturday";
-            break;
+                output = "Saturday";
+                break;
             case 1:
-                output ="Sunday";
-            break;
+                output = "Sunday";
+                break;
             case 2:
-                output ="Monday";
-            break;
+                output = "Monday";
+                break;
             case 3:
-                output ="Tuesday";
-            break;
+                output = "Tuesday";
+                break;
             case 4:
-                output ="Wednesday";
-            break;
+                output = "Wednesday";
+                break;
             case 5:
-                output ="Thursday";
-            break;
+                output = "Thursday";
+                break;
             case 6:
-                output ="Friday";
-            break;
+                output = "Friday";
+                break;
         }
         return output;
     }
